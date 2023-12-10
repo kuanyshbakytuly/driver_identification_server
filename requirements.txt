@@ -1,0 +1,12 @@
+python-dotenv~=0.21.1
+fastapi==0.96.0
+starlette==0.27.0
+pydantic~=1.10.4
+uvicorn~=0.20.0
+httpx~=0.23.3
+loguru~=0.6.0
+joblib
+pandas
+numpy
+scikit-learn==1.2.2
+python-multipart==0.0.6
