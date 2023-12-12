@@ -14,7 +14,7 @@ router = APIRouter(
     tags=['driver_identification'],
 )
 
-path_to_model = settings.storage_folder.joinpath('driver_identification/model.joblib')
+path_to_model = settings.storage_folder.joinpath('/model.joblib')
 model = joblib.load(path_to_model)
 
 columns_to_drop = ['can.fuel.level', 'can.ambient.air.temperature', 'movement.status', 'timestamp', 
